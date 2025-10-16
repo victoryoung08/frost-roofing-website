@@ -5,6 +5,18 @@ body {
   line-height: 120%;
 }
 
+.flex-col-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .h4 {
   color: #fff;
   letter-spacing: -0.002em;
@@ -932,6 +944,20 @@ body {
   position: absolute;
   top: 5rem;
   left: 5rem;
+}
+
+.stars-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  max-width: 240px;
+}
+
+.stars-container p {
+  color: gray;
+}
+.stars {
+  width: 100px;
 }
 
 .typeform {
